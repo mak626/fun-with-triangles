@@ -31,7 +31,7 @@ const eventHanlder = () => {
   }
 };
 
-dropDown.addEventListener("click", eventHanlder);
+dropDown.addEventListener("change", eventHanlder);
 
 submit.addEventListener("click", () => {
   invalid.style.display = "none";
