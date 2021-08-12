@@ -1,0 +1,27 @@
+header {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  padding: 5px 0px;
+  background-color: var(--nav-color);
+  color: var(--primary-color);
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  min-height: 4rem;
+  width: 100%;
+  margin: auto;
+}
+
+.navbar-title {
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
