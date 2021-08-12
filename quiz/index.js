@@ -37,5 +37,5 @@ quizForm.addEventListener("submit", (event) => {
 
   submitButton.style.display = "none";
   result.style.display = "flex";
-  message.innerText = `Score: ${score}`;
+  message.innerText = `Score: ${score}/10`;
 });
