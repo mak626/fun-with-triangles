@@ -7,4 +7,4 @@
 3. Calculate Area: To calculate area depending on the data about triangles user has
 4. Take a Quiz: A small quiz with basic level questions to test user's knowledge about triangles
 
-[View Here](https://mak626.github.io/fun-with-triangles)
+[View Here](https://mak626.github.io/fun-with-triangles/)
