@@ -1,4 +1,4 @@
-@import url("../angles/index.css");
+@import url('../angles/index.css');
 
 select {
   background-color: var(--primary-color);
