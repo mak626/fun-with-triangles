@@ -1,4 +1,4 @@
-@import "./styles/navbar.css";
+@import './styles/navbar.css';
 
 :root {
   font-family: Poppins;
@@ -7,7 +7,7 @@
   --secondary-color: #1ba4ca;
   --nav-color: transparent;
   --nav-color-dark: #18191a;
-  --font-color: #0d0422;
+  --font-color: white;
   --off-white-color: rgb(245, 245, 245);
   --green: #0f9d58;
   --red: #9e1d1d;

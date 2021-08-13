@@ -204,14 +204,13 @@ quizForm.addEventListener('submit', (event) => {
   // Reset Quiz
   if (submitButton.innerText === 'Replay') {
     submitButton.innerText = 'Submit';
-    for (let index = 0; index < queDivs.length; index++) queDivs[index].style.backgroundColor = blue;
+    for (let index = 0; index < queDivs.length; index++) {
+      queDivs[index].style.backgroundColor = blue;
+    }
     return;
   }
 
   const formData = new FormData(quizForm);
-
-  for (let index = 0; index < queDivs.length; index++) queDivs[index].style.backgroundColor = red;
-
   let score = 0;
 
   for (let entry of formData) {
@@ -221,6 +220,8 @@ quizForm.addEventListener('submit', (event) => {
     if (entry[1] === correctAnswer.value) {
       queDivs[index].style.backgroundColor = green;
       score++;
+    } else {
+      queDivs[index].style.backgroundColor = red;
     }
   }
 
